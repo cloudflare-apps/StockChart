@@ -3,7 +3,7 @@
     "body": [
       {
         "type": "script",
-        "contents": "Eager.createElement(EAGER_OPTIONS.container).innerHTML = '<img style=\"display: block; max-width: 100%\" src=\"https://www.google.com/finance/chart?q=EAGER_OPTIONS.symbol\">';"
+        "contents": "Eager.createElement(EAGER_OPTIONS.container).innerHTML = '<img style=\"display: block; max-width: 100%\" src=\"https://www.google.com/finance/chart?q=' + EAGER_OPTIONS.symbol + '\">';"
       }
     ]
   },
