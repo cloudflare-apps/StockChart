@@ -16,6 +16,7 @@
       },
       "symbol": {
         "title": "Stock ticker symbol",
+        "description": "Add any stock ticker such as \"AAPL\" or \"GOOG\". For the Dow Jones Industrial Average, use \".DJI\".",
         "placeholder": "AAPL, GOOG, etc.",
         "type": "string"
       }
